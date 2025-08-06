@@ -1,7 +1,7 @@
 import sqlite3
 import os
 
-DB_PATH = os.path.join(os.getcwd(), "cv_data.dv")
+DB_PATH = os.path.join(os.getcwd(), "cv_data.db")
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
